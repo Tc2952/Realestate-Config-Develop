@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: realestate-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Tc2952/Realestate-Config-Develop.git
+server:
+  port: 8000
