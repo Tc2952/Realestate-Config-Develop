@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: realestate-config
+  cloud:
+    config:
+      server:
+        git:
+          username: null
+          password: null
+          url: https://github.com/Tc2952/Realestate-Config-Develop.git
+          search-paths: null
+      label: null
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8889/eureka/
+server:
+  port: 8000
